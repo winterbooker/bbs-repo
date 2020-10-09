@@ -1,0 +1,290 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	outline: none;
+	font-family: "Hiragino Sans W3", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+label {
+	font-weight: bold;
+}
+
+ul {
+	list-style: none;
+}
+
+input, textarea {
+	font-size: 14px;
+	max-width: 98%;
+}
+
+a {
+	text-decoration: none;
+}
+
+.header {
+	background-color: #247BA0;
+	height: 90px;
+}
+
+.title {
+	font-size: 20px;
+	color: #fff;
+	padding: 30px;
+	letter-spacing: 3px;
+	float: left;
+}
+
+.success_message {
+	color: #07A0C3;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+.error_message {
+	color: #DD1C1A;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+.container {
+	margin: 30px;
+}
+
+.form_name {
+	margin-bottom: 30px;
+}
+
+#name {
+	display: block;
+	width: 200px;
+	height: 30px;
+	margin-top: 5px;
+	padding-left: 5px;
+}
+
+/* reply.phpで使用 */
+#reply_name {
+	display: block;
+	width: 200px;
+	height: 30px;
+	margin-top: 5px;
+	padding-left: 5px;
+}
+
+.form_content {
+	margin-bottom: 20px;
+}
+
+#content {
+	display: block;
+	width: 400px;
+	height: 100px;
+	margin-top: 5px;
+	padding: 5px;
+}
+
+/* reply.phpで使用 */
+#reply_content {
+	display: block;
+	width: 400px;
+	height: 100px;
+	margin-top: 5px;
+	padding: 5px;
+}
+
+/* admin.phpで使用 */
+.form_login {
+	margin-bottom: 20px;
+}
+
+/* admin.phpで使用 */
+#admin_password {
+	display: block;
+	width: 200px;
+	height: 30px;
+	margin-top: 5px;
+	padding-left: 5px;
+}
+
+#btn_submit {
+	font-size: 14px;
+	background-color: #03B5AA;
+	color: #fff;
+	width: 100px;
+	height: 35px;
+	border-radius: 50px;
+	margin-top: 20px;
+	border: none;
+	margin-bottom: 50px;
+	outline: none;
+}
+
+#btn_submit:hover {
+	background-color: #02A196;
+}
+
+.btn_cancel {
+	margin-right: 20px;
+	text-decoration: none;
+	font-size: 14px;
+	color: #474747;
+	border-radius: 50px;
+	margin-bottom: 50px;
+	padding: 10px 20px;
+	border: 1px solid;
+}
+
+.btn_cancel:hover {
+	background-color: #F4F5F6;
+	color: #4C5057;
+}
+
+hr {
+	border-color: #CAC7D1;
+}
+
+.post_list {
+	background-color: #EBEEFF;
+	padding: 3px 0;
+}
+
+article {
+	margin: 20px;
+	padding: 30px;
+	border-radius: 10px;
+	background: #fff;
+	box-shadow: 0 1px 2px #474350;
+}
+
+.info {
+	display: flex;
+}
+
+.info p {
+	font-size: 12px;
+	color: #585365;
+}
+
+/* admin.phpで使用 */
+.edit_delete_btn {
+	display: inline-block;
+}
+
+.post_date, .reply_date {
+	font-size: 12px;
+	color: #CAC7D1;
+}
+
+.content, .reply_content {
+	margin-top: 10px;
+	font-size: 18px;
+}
+
+/* delete.phpで使用 */
+.text-confirm {
+	margin: 20px;
+	font-size: 86%;
+	line-height: 1.6em;
+	color: red;
+}
+
+/* admin.phpで使用 */
+#btn_logout {
+	padding: 7px;
+	float: right;
+	margin: 25px 2vw;
+}
+
+.reply_list_container {
+	padding-top: 20px;
+}
+
+.reply_list {
+	margin-left: 100px;
+	margin-right: -2px;
+	box-shadow: none;
+	border: 1px solid #868B98;
+	background-color: #F5F5F5;
+}
+
+.reply {
+	display: inline-block;
+	text-decoration: none;
+	color: #868B98;
+	border: 1px solid;
+	border-radius: 10px;
+	padding: 10px;
+	font-size: 12px;
+	float: right;
+}
+
+.reply:hover {
+	background-color: #F4F5F6;
+	color: #4C5057;
+}
+
+.clear {
+	clear: both;
+}
+
+.pagination_container {
+	margin-left: 2vw;
+	margin-right: 2vw;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.pagination {
+	padding: 7px;
+	margin-left: 10px;
+	border: 1px solid #247BA0;
+	display: inline-block;
+	text-decoration: none;
+	color: #247BA0;
+	border-radius: 5px;
+}
+
+.pagination:hover {
+	background-color: #CDE8F4;
+}
+
+/* reply.phpで使用 */
+.reply_form_container {
+	border-left: 1.7px solid #707070;
+	padding-left: 50px;
+	padding-top: 50px;
+	margin-top: 40px;
+	margin-left: 70px;
+}
+
+/* admin.phpで使用 */
+.edit_delete_btn a {
+	margin-left: 10px;
+}
+
+.prev_btn {
+	color: #247BA0;
+}
+
+.next_btn {
+	margin-left: 10px;
+	color: #247BA0;
+}
+
+.prev_btn:hover, .next_btn:hover {
+	text-decoration: underline;
+}
+
+.current_page {
+	padding: 7px;
+	margin-left: 10px;
+	border: 1px solid #247BA0;
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	border-radius: 5px;
+	background-color: #247BA0;
+	pointer-events: none;
+}
