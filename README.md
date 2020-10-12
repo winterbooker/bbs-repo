@@ -3,7 +3,7 @@
 <p>パスワードを用いてログインする管理者用のページもあり、公序良俗に反する投稿があった場合などにその投稿に対して「編集」や「削除」ができるようになっています。</p>
 <br>
 <br>
-<h1>投稿ページ</h1>
+<h1>投稿画面</h1>
 <img width="1440" alt="Screen Shot 2020-10-12 at 14 47 24" src="https://user-images.githubusercontent.com/66158552/95709698-2af30a80-0c9a-11eb-8e7c-fc58224d5ff8.png">
 <br>
 <br>
